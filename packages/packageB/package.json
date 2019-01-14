@@ -1,6 +1,6 @@
 {
   "name": "@dk/packageb",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "package B",
   "main": "src/index.js",
   "scripts": {
