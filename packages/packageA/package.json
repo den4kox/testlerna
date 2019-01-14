@@ -1,5 +1,5 @@
 {
-  "name": "packagea",
+  "name": "@dk/packagea",
   "version": "0.0.2",
   "description": "package A",
   "main": "src/index.js",
@@ -11,5 +11,5 @@
   "files": [
     "src"
   ],
-  "gitHead": "2f85115bdff7ae862ac51fa77577a9aae68e4334"
+  "gitHead": "ecf959d6f0d26eb2a220ff40797806c788170a90"
 }
