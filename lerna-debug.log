@@ -1,14 +1,96 @@
 0 silly argv { _: [ 'publish' ],
 0 silly argv   composed: 'publish',
 0 silly argv   lernaVersion: '3.10.5',
-0 silly argv   '$0': '../../.npm/_npx/61465/bin/lerna' }
+0 silly argv   '$0': '../../.npm/_npx/61549/bin/lerna' }
 1 notice cli v3.10.5
 2 verbose rootPath /Users/kokhnovich.d/fake/lerna
-3 verbose session 5b3a2e14b490b1c9
+3 verbose session 78f427ed22ce9c07
 4 verbose user-agent lerna/3.10.5/node@v8.11.2+x64 (darwin)
-5 error Error: Command failed: git describe --always --long --dirty --first-parent
-5 error fatal: bad revision 'HEAD'
-5 error
-5 error     at makeError (/Users/kokhnovich.d/.npm/_npx/61465/lib/node_modules/lerna/node_modules/execa/index.js:174:9)
-5 error     at Promise.all.then.arr (/Users/kokhnovich.d/.npm/_npx/61465/lib/node_modules/lerna/node_modules/execa/index.js:278:16)
-5 error     at <anonymous>
+5 verbose git-describe undefined => "d1d51be"
+6 silly git-describe parsed => {"refCount":"1","sha":"d1d51be","isDirty":false}
+7 silly argv { _: [ 'publish' ], composed: 'publish', lernaVersion: '3.10.5' }
+8 verbose rootPath /Users/kokhnovich.d/fake/lerna
+9 info current version 0.0.0
+10 silly isAnythingCommitted
+11 verbose isAnythingCommitted 1
+12 silly currentBranch
+13 verbose currentBranch master
+14 silly remoteBranchExists
+15 silly isBehindUpstream
+16 silly isBehindUpstream master is behind origin/master by 0 commit(s) and ahead by 0
+17 silly hasTags
+18 verbose hasTags false
+19 info Looking for changed packages since initial commit.
+20 verbose updated @dk/packagea
+21 verbose updated @dk/packageb
+22 verbose git-describe undefined => "d1d51be"
+23 silly git-describe parsed => {"refCount":"1","sha":"d1d51be","isDirty":false}
+24 silly batched [ PackageGraphNode {
+24 silly batched     name: '@dk/packagea',
+24 silly batched     externalDependencies: Map {},
+24 silly batched     localDependencies: Map {},
+24 silly batched     localDependents: Map {} },
+24 silly batched   PackageGraphNode {
+24 silly batched     name: '@dk/packageb',
+24 silly batched     externalDependencies: Map {},
+24 silly batched     localDependencies: Map {},
+24 silly batched     localDependents: Map {} } ]
+25 silly lifecycle No script for "preversion" in "root", continuing
+26 silly lifecycle No script for "preversion" in "@dk/packagea", continuing
+27 silly lifecycle No script for "preversion" in "@dk/packageb", continuing
+28 silly lifecycle No script for "version" in "@dk/packageb", continuing
+29 silly lifecycle No script for "version" in "@dk/packagea", continuing
+30 silly lifecycle No script for "version" in "root", continuing
+31 silly gitAdd [ '/Users/kokhnovich.d/fake/lerna/packages/packageB/package.json',
+31 silly gitAdd   '/Users/kokhnovich.d/fake/lerna/packages/packageA/package.json',
+31 silly gitAdd   '/Users/kokhnovich.d/fake/lerna/lerna.json' ]
+32 silly gitCommit v0.0.1
+33 verbose git [ 'commit', '-m', 'v0.0.1' ]
+34 silly gitTag v0.0.1
+35 verbose git [ 'tag', 'v0.0.1', '-m', 'v0.0.1' ]
+36 silly lifecycle No script for "postversion" in "@dk/packagea", continuing
+37 silly lifecycle No script for "postversion" in "@dk/packageb", continuing
+38 silly lifecycle No script for "postversion" in "root", continuing
+39 info git Pushing tags...
+40 silly gitPush origin master
+41 silly batched [ PackageGraphNode {
+41 silly batched     name: '@dk/packagea',
+41 silly batched     externalDependencies: Map {},
+41 silly batched     localDependencies: Map {},
+41 silly batched     localDependents: Map {} },
+41 silly batched   PackageGraphNode {
+41 silly batched     name: '@dk/packageb',
+41 silly batched     externalDependencies: Map {},
+41 silly batched     localDependencies: Map {},
+41 silly batched     localDependents: Map {} } ]
+42 info publish Publishing packages to npm...
+43 notice Skipping all user and access validation due to third-party registry
+44 notice Make sure you're authenticated properly ¯\_(ツ)_/¯
+45 warn ENOLICENSE Packages @dk/packagea, @dk/packageb are missing a license
+46 silly getCurrentSHA
+47 verbose getCurrentSHA 2f85115bdff7ae862ac51fa77577a9aae68e4334
+48 silly lifecycle No script for "prepublish" in "root", continuing
+49 silly lifecycle No script for "prepare" in "root", continuing
+50 silly lifecycle No script for "prepublishOnly" in "root", continuing
+51 silly lifecycle No script for "prepack" in "root", continuing
+52 verbose pack-directory packages/packageA
+53 verbose pack-directory packages/packageB
+54 silly lifecycle No script for "prepublish" in "@dk/packagea", continuing
+55 silly lifecycle No script for "prepublish" in "@dk/packageb", continuing
+56 silly lifecycle No script for "prepare" in "@dk/packagea", continuing
+57 silly lifecycle No script for "prepare" in "@dk/packageb", continuing
+58 silly lifecycle No script for "prepublishOnly" in "@dk/packagea", continuing
+59 silly lifecycle No script for "prepublishOnly" in "@dk/packageb", continuing
+60 silly lifecycle No script for "prepack" in "@dk/packagea", continuing
+61 silly lifecycle No script for "prepack" in "@dk/packageb", continuing
+62 silly lifecycle No script for "postpack" in "@dk/packagea", continuing
+63 verbose packed @dk/packagea packages/packageA
+64 silly lifecycle No script for "postpack" in "@dk/packageb", continuing
+65 verbose packed @dk/packageb packages/packageB
+66 silly lifecycle No script for "postpack" in "root", continuing
+67 verbose publish @dk/packagea
+68 verbose publish @dk/packageb
+69 http fetch PUT 402 https://registry.npmjs.org/@dk%2fpackageb 1326ms
+70 error Error: 402 Payment Required - PUT https://registry.npmjs.org/@dk%2fpackageb - You must sign up for private packages
+70 error     at res.buffer.catch.then.body (/Users/kokhnovich.d/.npm/_npx/61549/lib/node_modules/lerna/node_modules/npm-registry-fetch/check-response.js:104:15)
+70 error     at <anonymous>

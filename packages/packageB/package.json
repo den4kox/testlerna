@@ -1,5 +1,5 @@
 {
-  "name": "@dk/packageb",
+  "name": "packageb",
   "version": "0.0.1",
   "description": "package B",
   "main": "src/index.js",
@@ -10,5 +10,6 @@
   "license": "ISC",
   "files": [
     "src"
-  ]
+  ],
+  "gitHead": "2f85115bdff7ae862ac51fa77577a9aae68e4334"
 }
