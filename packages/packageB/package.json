@@ -1,5 +1,5 @@
 {
-  "name": "@dk/packageb",
+  "name": "dk-packageb",
   "version": "0.0.6",
   "description": "package B",
   "main": "src/index.js",
@@ -14,5 +14,5 @@
   "publishConfig": {
     "access": "public"
   },
-  "gitHead": "b90a6fed368cb962981613f24a928a660251c086"
+  "gitHead": "b05fe815dd412d341a2883ddc833778add64e9bb"
 }

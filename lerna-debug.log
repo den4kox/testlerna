@@ -1,16 +1,16 @@
 0 silly argv { _: [ 'publish' ],
 0 silly argv   composed: 'publish',
 0 silly argv   lernaVersion: '3.10.5',
-0 silly argv   '$0': '../../../../.npm/_npx/62295/bin/lerna' }
+0 silly argv   '$0': 'lerna' }
 1 notice cli v3.10.5
 2 verbose rootPath /Users/kokhnovich.d/fake/lerna
-3 verbose session 4e8517ebadee8124
+3 verbose session 5753270acc68d440
 4 verbose user-agent lerna/3.10.5/node@v8.11.2+x64 (darwin)
-5 verbose git-describe undefined => "v0.0.4-1-gb004069"
-6 silly git-describe parsed => {"lastTagName":"v0.0.4","lastVersion":"v0.0.4","refCount":"1","sha":"b004069","isDirty":false}
+5 verbose git-describe undefined => "v0.0.5-1-g56ab763"
+6 silly git-describe parsed => {"lastTagName":"v0.0.5","lastVersion":"v0.0.5","refCount":"1","sha":"56ab763","isDirty":false}
 7 silly argv { _: [ 'publish' ], composed: 'publish', lernaVersion: '3.10.5' }
 8 verbose rootPath /Users/kokhnovich.d/fake/lerna
-9 info current version 0.0.4
+9 info current version 0.0.5
 10 silly isAnythingCommitted
 11 verbose isAnythingCommitted 1
 12 silly currentBranch
@@ -20,25 +20,25 @@
 16 silly isBehindUpstream master is behind origin/master by 0 commit(s) and ahead by 0
 17 silly hasTags
 18 verbose hasTags true
-19 silly git-describe.sync "v0.0.4-1-gb004069" => {"lastTagName":"v0.0.4","lastVersion":"v0.0.4","refCount":"1","sha":"b004069","isDirty":false}
-20 info Looking for changed packages since v0.0.4
-21 silly diffSinceIn v0.0.4 packages/packageA
+19 silly git-describe.sync "v0.0.5-1-g56ab763" => {"lastTagName":"v0.0.5","lastVersion":"v0.0.5","refCount":"1","sha":"56ab763","isDirty":false}
+20 info Looking for changed packages since v0.0.5
+21 silly diffSinceIn v0.0.5 packages/packageA
 22 silly diff packages/packageA/package.json
-23 silly diffSinceIn v0.0.4 packages/packageB
+23 silly diffSinceIn v0.0.5 packages/packageB
 24 silly diff packages/packageB/package.json
-25 silly diffSinceIn v0.0.4 packages/packageC
+25 silly diffSinceIn v0.0.5 packages/packageC
 26 silly diff packages/packageC/package.json
 27 verbose updated @dk/packagea
 28 verbose updated @dk/packageb
 29 verbose updated @dk/packagec
-30 verbose git-describe undefined => "v0.0.4-1-gb004069"
-31 silly git-describe parsed => {"lastTagName":"v0.0.4","lastVersion":"v0.0.4","refCount":"1","sha":"b004069","isDirty":false}
+30 verbose git-describe undefined => "v0.0.5-1-g56ab763"
+31 silly git-describe parsed => {"lastTagName":"v0.0.5","lastVersion":"v0.0.5","refCount":"1","sha":"56ab763","isDirty":false}
 32 silly fixed for @dk/packagea at /Users/kokhnovich.d/fake/lerna/packages/packageA
-33 verbose fixed increment 0.0.4 by patch
+33 verbose fixed increment 0.0.5 by patch
 34 silly fixed for @dk/packageb at /Users/kokhnovich.d/fake/lerna/packages/packageB
-35 verbose fixed increment 0.0.4 by patch
+35 verbose fixed increment 0.0.5 by patch
 36 silly fixed for @dk/packagec at /Users/kokhnovich.d/fake/lerna/packages/packageC
-37 verbose fixed increment 0.0.4 by patch
+37 verbose fixed increment 0.0.5 by patch
 38 silly batched [ PackageGraphNode {
 38 silly batched     name: '@dk/packagea',
 38 silly batched     externalDependencies: Map {},
@@ -58,34 +58,34 @@
 40 silly lifecycle No script for "preversion" in "@dk/packagea", continuing
 41 silly lifecycle No script for "preversion" in "@dk/packageb", continuing
 42 silly lifecycle No script for "preversion" in "@dk/packagec", continuing
-43 silly lifecycle No script for "version" in "@dk/packageb", continuing
-44 silly fixed for @dk/packageb at /Users/kokhnovich.d/fake/lerna/packages/packageB
+43 silly lifecycle No script for "version" in "@dk/packagea", continuing
+44 silly fixed for @dk/packagea at /Users/kokhnovich.d/fake/lerna/packages/packageA
 45 silly lifecycle No script for "version" in "@dk/packagec", continuing
 46 silly fixed for @dk/packagec at /Users/kokhnovich.d/fake/lerna/packages/packageC
-47 silly lifecycle No script for "version" in "@dk/packagea", continuing
-48 silly fixed for @dk/packagea at /Users/kokhnovich.d/fake/lerna/packages/packageA
-49 silly fixed writing new entry: "## [0.0.5](https://github.com/den4kox/testlerna/compare/v0.0.4...v0.0.5) (2019-01-14)\n\n**Note:** Version bump only for package @dk/packageb\n\n\n\n"
-50 silly fixed writing new entry: "## [0.0.5](https://github.com/den4kox/testlerna/compare/v0.0.4...v0.0.5) (2019-01-14)\n\n**Note:** Version bump only for package @dk/packagec\n\n\n\n"
-51 silly fixed writing new entry: "## [0.0.5](https://github.com/den4kox/testlerna/compare/v0.0.4...v0.0.5) (2019-01-14)\n\n**Note:** Version bump only for package @dk/packagea\n\n\n\n"
-52 verbose fixed wrote /Users/kokhnovich.d/fake/lerna/packages/packageC/CHANGELOG.md
-53 verbose fixed wrote /Users/kokhnovich.d/fake/lerna/packages/packageB/CHANGELOG.md
-54 verbose fixed wrote /Users/kokhnovich.d/fake/lerna/packages/packageA/CHANGELOG.md
+47 silly lifecycle No script for "version" in "@dk/packageb", continuing
+48 silly fixed for @dk/packageb at /Users/kokhnovich.d/fake/lerna/packages/packageB
+49 silly fixed writing new entry: "## [0.0.6](https://github.com/den4kox/testlerna/compare/v0.0.5...v0.0.6) (2019-01-14)\n\n**Note:** Version bump only for package @dk/packagea\n\n\n\n"
+50 silly fixed writing new entry: "## [0.0.6](https://github.com/den4kox/testlerna/compare/v0.0.5...v0.0.6) (2019-01-14)\n\n**Note:** Version bump only for package @dk/packagec\n\n\n\n"
+51 silly fixed writing new entry: "## [0.0.6](https://github.com/den4kox/testlerna/compare/v0.0.5...v0.0.6) (2019-01-14)\n\n**Note:** Version bump only for package @dk/packageb\n\n\n\n"
+52 verbose fixed wrote /Users/kokhnovich.d/fake/lerna/packages/packageA/CHANGELOG.md
+53 verbose fixed wrote /Users/kokhnovich.d/fake/lerna/packages/packageC/CHANGELOG.md
+54 verbose fixed wrote /Users/kokhnovich.d/fake/lerna/packages/packageB/CHANGELOG.md
 55 silly root for root at /Users/kokhnovich.d/fake/lerna
-56 silly root writing new entry: "## [0.0.5](https://github.com/den4kox/testlerna/compare/v0.0.4...v0.0.5) (2019-01-14)\n\n**Note:** Version bump only for package root\n\n\n\n"
+56 silly root writing new entry: "## [0.0.6](https://github.com/den4kox/testlerna/compare/v0.0.5...v0.0.6) (2019-01-14)\n\n**Note:** Version bump only for package root\n\n\n\n"
 57 verbose root wrote /Users/kokhnovich.d/fake/lerna/CHANGELOG.md
 58 silly lifecycle No script for "version" in "root", continuing
-59 silly gitAdd [ '/Users/kokhnovich.d/fake/lerna/packages/packageB/package.json',
+59 silly gitAdd [ '/Users/kokhnovich.d/fake/lerna/packages/packageA/package.json',
 59 silly gitAdd   '/Users/kokhnovich.d/fake/lerna/packages/packageC/package.json',
-59 silly gitAdd   '/Users/kokhnovich.d/fake/lerna/packages/packageA/package.json',
+59 silly gitAdd   '/Users/kokhnovich.d/fake/lerna/packages/packageB/package.json',
+59 silly gitAdd   '/Users/kokhnovich.d/fake/lerna/packages/packageA/CHANGELOG.md',
 59 silly gitAdd   '/Users/kokhnovich.d/fake/lerna/packages/packageC/CHANGELOG.md',
 59 silly gitAdd   '/Users/kokhnovich.d/fake/lerna/packages/packageB/CHANGELOG.md',
-59 silly gitAdd   '/Users/kokhnovich.d/fake/lerna/packages/packageA/CHANGELOG.md',
 59 silly gitAdd   '/Users/kokhnovich.d/fake/lerna/CHANGELOG.md',
 59 silly gitAdd   '/Users/kokhnovich.d/fake/lerna/lerna.json' ]
-60 silly gitCommit chore(release): :bookmark: publish v0.0.5
-61 verbose git [ 'commit', '-m', 'chore(release): :bookmark: publish v0.0.5' ]
-62 silly gitTag v0.0.5
-63 verbose git [ 'tag', 'v0.0.5', '-m', 'v0.0.5' ]
+60 silly gitCommit chore(release): :bookmark: publish v0.0.6
+61 verbose git [ 'commit', '-m', 'chore(release): :bookmark: publish v0.0.6' ]
+62 silly gitTag v0.0.6
+63 verbose git [ 'tag', 'v0.0.6', '-m', 'v0.0.6' ]
 64 silly lifecycle No script for "postversion" in "@dk/packagea", continuing
 65 silly lifecycle No script for "postversion" in "@dk/packageb", continuing
 66 silly lifecycle No script for "postversion" in "@dk/packagec", continuing
@@ -112,7 +112,7 @@
 73 notice Make sure you're authenticated properly ¯\_(ツ)_/¯
 74 warn ENOLICENSE Packages @dk/packagea, @dk/packageb, @dk/packagec are missing a license
 75 silly getCurrentSHA
-76 verbose getCurrentSHA b90a6fed368cb962981613f24a928a660251c086
+76 verbose getCurrentSHA b05fe815dd412d341a2883ddc833778add64e9bb
 77 silly lifecycle No script for "prepublish" in "root", continuing
 78 silly lifecycle No script for "prepare" in "root", continuing
 79 silly lifecycle No script for "prepublishOnly" in "root", continuing
@@ -142,7 +142,7 @@
 103 verbose publish @dk/packagea
 104 verbose publish @dk/packageb
 105 verbose publish @dk/packagec
-106 http fetch PUT 403 https://registry.npmjs.org/@dk%2fpackageb 898ms
-107 error Error: 403 Forbidden - PUT https://registry.npmjs.org/@dk%2fpackageb - Forbidden
-107 error     at res.buffer.catch.then.body (/Users/kokhnovich.d/.npm/_npx/62295/lib/node_modules/lerna/node_modules/npm-registry-fetch/check-response.js:104:15)
+106 http fetch PUT 403 https://registry.npmjs.org/@dk%2fpackagec 683ms
+107 error Error: 403 Forbidden - PUT https://registry.npmjs.org/@dk%2fpackagec - Forbidden
+107 error     at res.buffer.catch.then.body (/usr/local/lib/node_modules/lerna/node_modules/npm-registry-fetch/check-response.js:104:15)
 107 error     at <anonymous>
