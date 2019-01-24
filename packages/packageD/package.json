@@ -1,6 +1,6 @@
 {
   "name": "dk-packaged",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "package D",
   "main": "src/index.js",
   "scripts": {

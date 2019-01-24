@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.0.10](https://github.com/den4kox/testlerna/compare/dk-packageb@0.0.9...dk-packageb@0.0.10) (2019-01-24)
+
+**Note:** Version bump only for package dk-packageb
+
+
+
+
+
 ## 0.0.9 (2019-01-24)
 
 

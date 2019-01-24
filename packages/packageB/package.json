@@ -1,6 +1,6 @@
 {
   "name": "dk-packageb",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "package B",
   "main": "src/index.js",
   "scripts": {
