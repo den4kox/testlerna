@@ -1,7 +1,7 @@
 {
-  "name": "dk-packageb",
+  "name": "dk-packagec",
   "version": "0.0.8",
-  "description": "package B",
+  "description": "package C",
   "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -16,6 +16,6 @@
   },
   "gitHead": "7230c494f0f21118f431609de9556fc2f67724ec",
   "dependencies": {
-    "dk-packagea": "0.0.11"
+    "dk-packagea": "0.0.15"
   }
 }
