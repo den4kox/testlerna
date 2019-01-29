@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.0.18](https://github.com/den4kox/testlerna/compare/dk-packagea@0.0.17...dk-packagea@0.0.18) (2019-01-29)
+
+**Note:** Version bump only for package dk-packagea
+
+
+
+
+
 ## [0.0.17](https://github.com/den4kox/testlerna/compare/dk-packagea@0.0.17-beta.0...dk-packagea@0.0.17) (2019-01-29)
 
 **Note:** Version bump only for package dk-packagea
