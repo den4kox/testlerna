@@ -1,6 +1,6 @@
 {
   "name": "dk-packagea",
-  "version": "0.0.19",
+  "version": "0.0.20-beta.0",
   "description": "package A",
   "main": "src/index.js",
   "scripts": {
