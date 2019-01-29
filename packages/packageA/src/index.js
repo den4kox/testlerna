@@ -1,4 +1,4 @@
-const packageA = 'THIS Feature fix'
+const packageA = 'THIS Feature fix2'
 
 export {
   packageA
