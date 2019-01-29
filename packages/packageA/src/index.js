@@ -1,4 +1,4 @@
-const packageA = 'THIS NEXT PACKAGE A latest2222'
+const packageA = 'THIS NEXT PACKAGE A beta1'
 
 export {
   packageA
